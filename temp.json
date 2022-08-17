@@ -1,0 +1,2640 @@
+[
+    {
+      "id": "0",
+      "uuid": "string",
+      "institutionId": 123,
+      "name": "string",
+      "street": "string",
+      "city": "string",
+      "state": "string",
+      "zipcode": "string",
+      "latitude": 123,
+      "longitude": 123,
+      "website": "string",
+      "stageConfiguration": [
+        "string"
+      ],
+      "specialFeatures": "string",
+      "venueCapacity": "string",
+      "completionYear": "string",
+      "resourceLocation": "string",
+      "createdAt": "string",
+      "updatedAt": "string",
+      "institution": {
+        "id": 123,
+        "uuid": "string",
+        "type": "string",
+        "name": "string",
+        "street": "string",
+        "city": "string",
+        "state": "string",
+        "zipcode": "string",
+        "latitude": 123,
+        "longitude": 123,
+        "website": "string",
+        "resourceLocation": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "programs": [
+          {
+            "id": 123,
+            "uuid": "string",
+            "institutionId": 123,
+            "name": "string",
+            "artistHeadId": 123,
+            "website": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "institution": {},
+            "artistHead": {
+              "id": 123,
+              "uuid": "string",
+              "firstName": "string",
+              "lastName": "string",
+              "dob": "string",
+              "bio": "string",
+              "hometown": "string",
+              "homeState": "string",
+              "homeCountry": "string",
+              "unionAffiliation": "string",
+              "professionalName": "string",
+              "awards": [
+                "string"
+              ],
+              "resourceLocation": "string",
+              "website": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "playContributions": {},
+              "productionContributions": {}
+            },
+            "featuredProductions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "institutionId": "string",
+                "institutionProgramId": "string",
+                "playId": "string",
+                "venueId": "string",
+                "runtime": 123,
+                "productionStartDate": "string",
+                "productionEndDate": "string",
+                "captureStartDate": "string",
+                "captureEndDate": "string",
+                "themes": [
+                  "string"
+                ],
+                "licenseType": "string",
+                "stageConfiguration": "string",
+                "percentSeatsSold": 123,
+                "resourceLocation": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "institution": {},
+                "institutionProgram": {},
+                "play": {
+                  "id": 123,
+                  "uuid": "string",
+                  "brandId": 123,
+                  "brand": {
+                    "id": 123,
+                    "uuid": "string",
+                    "name": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "plays": [
+                      {}
+                    ]
+                  },
+                  "playType": "string",
+                  "Enum": [
+                    "PLAY",
+                    "MUSICAL"
+                  ],
+                  "licenseName": "string",
+                  "licenseHouse": "string",
+                  "licenseWebsite": "string",
+                  "originalProductionYear": "string",
+                  "shortDescription": "string",
+                  "longDescription": "string",
+                  "synopsis": "string",
+                  "history": "string",
+                  "duration": 123,
+                  "awards": [
+                    "string"
+                  ],
+                  "genres": [
+                    "string"
+                  ],
+                  "musicStyles": [
+                    "string"
+                  ],
+                  "themes": [
+                    "string"
+                  ],
+                  "vocalRequirements": [
+                    "string"
+                  ],
+                  "ensembleSize": "string",
+                  "numberOfActs": 123,
+                  "audienceRating": "string",
+                  "playSetting": "string",
+                  "danceRequirements": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "characters": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": "string",
+                      "name": "string",
+                      "tier": "string",
+                      "gender": "string",
+                      "ageRangeTop": 123,
+                      "ageRangeBottom": 123,
+                      "race": "string",
+                      "vocalRangeTop": "string",
+                      "vocalRangeBottom": "string",
+                      "voiceType": "string",
+                      "castingNotes": "string",
+                      "description": "string",
+                      "ethnicity": "string",
+                      "play": {}
+                    }
+                  ],
+                  "songs": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": 123,
+                      "name": "string",
+                      "website": "string",
+                      "songDuration": "string",
+                      "scoreNumber": "string",
+                      "description": "string",
+                      "play": {}
+                    }
+                  ],
+                  "orchestrations": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": "string",
+                      "orchestraName": "string",
+                      "orchestraSize": "string",
+                      "orchestraDescription": "string"
+                    }
+                  ],
+                  "contributions": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": 123,
+                      "artistId": 123,
+                      "contributionType": "string",
+                      "contributionName": "string",
+                      "award": "string",
+                      "play": {},
+                      "artist": {
+                        "id": 123,
+                        "uuid": "string",
+                        "firstName": "string",
+                        "lastName": "string",
+                        "dob": "string",
+                        "bio": "string",
+                        "hometown": "string",
+                        "homeState": "string",
+                        "homeCountry": "string",
+                        "unionAffiliation": "string",
+                        "professionalName": "string",
+                        "awards": [
+                          "string"
+                        ],
+                        "resourceLocation": "string",
+                        "website": "string",
+                        "createdAt": "string",
+                        "updatedAt": "string",
+                        "playContributions": {},
+                        "productionContributions": {}
+                      }
+                    }
+                  ],
+                  "featuredProductions": [
+                    {}
+                  ],
+                  "featuredArtistContributions": [
+                    {}
+                  ]
+                },
+                "venue": {},
+                "contributions": [
+                  {
+                    "id": 123,
+                    "uuid": "string",
+                    "productionId": 123,
+                    "artistId": 123,
+                    "contributionType": "string",
+                    "contributionName": "string",
+                    "award": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "production": {},
+                    "artist": {
+                      "id": 123,
+                      "uuid": "string",
+                      "firstName": "string",
+                      "lastName": "string",
+                      "dob": "string",
+                      "bio": "string",
+                      "hometown": "string",
+                      "homeState": "string",
+                      "homeCountry": "string",
+                      "unionAffiliation": "string",
+                      "professionalName": "string",
+                      "awards": [
+                        "string"
+                      ],
+                      "resourceLocation": "string",
+                      "website": "string",
+                      "createdAt": "string",
+                      "updatedAt": "string",
+                      "playContributions": {},
+                      "productionContributions": {}
+                    }
+                  }
+                ],
+                "featuredArtistContributions": [
+                  {}
+                ]
+              }
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          }
+        ],
+        "productions": [
+          {
+            "id": 123,
+            "uuid": "string",
+            "institutionId": "string",
+            "institutionProgramId": "string",
+            "playId": "string",
+            "venueId": "string",
+            "runtime": 123,
+            "productionStartDate": "string",
+            "productionEndDate": "string",
+            "captureStartDate": "string",
+            "captureEndDate": "string",
+            "themes": [
+              "string"
+            ],
+            "licenseType": "string",
+            "stageConfiguration": "string",
+            "percentSeatsSold": 123,
+            "resourceLocation": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "institution": {},
+            "institutionProgram": {},
+            "play": {
+              "id": 123,
+              "uuid": "string",
+              "brandId": 123,
+              "brand": {
+                "id": 123,
+                "uuid": "string",
+                "name": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "plays": [
+                  {}
+                ]
+              },
+              "playType": "string",
+              "Enum": [
+                "PLAY",
+                "MUSICAL"
+              ],
+              "licenseName": "string",
+              "licenseHouse": "string",
+              "licenseWebsite": "string",
+              "originalProductionYear": "string",
+              "shortDescription": "string",
+              "longDescription": "string",
+              "synopsis": "string",
+              "history": "string",
+              "duration": 123,
+              "awards": [
+                "string"
+              ],
+              "genres": [
+                "string"
+              ],
+              "musicStyles": [
+                "string"
+              ],
+              "themes": [
+                "string"
+              ],
+              "vocalRequirements": [
+                "string"
+              ],
+              "ensembleSize": "string",
+              "numberOfActs": 123,
+              "audienceRating": "string",
+              "playSetting": "string",
+              "danceRequirements": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "characters": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "name": "string",
+                  "tier": "string",
+                  "gender": "string",
+                  "ageRangeTop": 123,
+                  "ageRangeBottom": 123,
+                  "race": "string",
+                  "vocalRangeTop": "string",
+                  "vocalRangeBottom": "string",
+                  "voiceType": "string",
+                  "castingNotes": "string",
+                  "description": "string",
+                  "ethnicity": "string",
+                  "play": {}
+                }
+              ],
+              "songs": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "name": "string",
+                  "website": "string",
+                  "songDuration": "string",
+                  "scoreNumber": "string",
+                  "description": "string",
+                  "play": {}
+                }
+              ],
+              "orchestrations": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "orchestraName": "string",
+                  "orchestraSize": "string",
+                  "orchestraDescription": "string"
+                }
+              ],
+              "contributions": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "artistId": 123,
+                  "contributionType": "string",
+                  "contributionName": "string",
+                  "award": "string",
+                  "play": {},
+                  "artist": {
+                    "id": 123,
+                    "uuid": "string",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "dob": "string",
+                    "bio": "string",
+                    "hometown": "string",
+                    "homeState": "string",
+                    "homeCountry": "string",
+                    "unionAffiliation": "string",
+                    "professionalName": "string",
+                    "awards": [
+                      "string"
+                    ],
+                    "resourceLocation": "string",
+                    "website": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "playContributions": {},
+                    "productionContributions": {}
+                  }
+                }
+              ],
+              "featuredProductions": [
+                {}
+              ],
+              "featuredArtistContributions": [
+                {}
+              ]
+            },
+            "venue": {},
+            "contributions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "productionId": 123,
+                "artistId": 123,
+                "contributionType": "string",
+                "contributionName": "string",
+                "award": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "production": {},
+                "artist": {
+                  "id": 123,
+                  "uuid": "string",
+                  "firstName": "string",
+                  "lastName": "string",
+                  "dob": "string",
+                  "bio": "string",
+                  "hometown": "string",
+                  "homeState": "string",
+                  "homeCountry": "string",
+                  "unionAffiliation": "string",
+                  "professionalName": "string",
+                  "awards": [
+                    "string"
+                  ],
+                  "resourceLocation": "string",
+                  "website": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "playContributions": {},
+                  "productionContributions": {}
+                }
+              }
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          }
+        ],
+        "featuredProductions": [
+          {
+            "id": 123,
+            "uuid": "string",
+            "institutionId": "string",
+            "institutionProgramId": "string",
+            "playId": "string",
+            "venueId": "string",
+            "runtime": 123,
+            "productionStartDate": "string",
+            "productionEndDate": "string",
+            "captureStartDate": "string",
+            "captureEndDate": "string",
+            "themes": [
+              "string"
+            ],
+            "licenseType": "string",
+            "stageConfiguration": "string",
+            "percentSeatsSold": 123,
+            "resourceLocation": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "institution": {},
+            "institutionProgram": {},
+            "play": {
+              "id": 123,
+              "uuid": "string",
+              "brandId": 123,
+              "brand": {
+                "id": 123,
+                "uuid": "string",
+                "name": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "plays": [
+                  {}
+                ]
+              },
+              "playType": "string",
+              "Enum": [
+                "PLAY",
+                "MUSICAL"
+              ],
+              "licenseName": "string",
+              "licenseHouse": "string",
+              "licenseWebsite": "string",
+              "originalProductionYear": "string",
+              "shortDescription": "string",
+              "longDescription": "string",
+              "synopsis": "string",
+              "history": "string",
+              "duration": 123,
+              "awards": [
+                "string"
+              ],
+              "genres": [
+                "string"
+              ],
+              "musicStyles": [
+                "string"
+              ],
+              "themes": [
+                "string"
+              ],
+              "vocalRequirements": [
+                "string"
+              ],
+              "ensembleSize": "string",
+              "numberOfActs": 123,
+              "audienceRating": "string",
+              "playSetting": "string",
+              "danceRequirements": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "characters": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "name": "string",
+                  "tier": "string",
+                  "gender": "string",
+                  "ageRangeTop": 123,
+                  "ageRangeBottom": 123,
+                  "race": "string",
+                  "vocalRangeTop": "string",
+                  "vocalRangeBottom": "string",
+                  "voiceType": "string",
+                  "castingNotes": "string",
+                  "description": "string",
+                  "ethnicity": "string",
+                  "play": {}
+                }
+              ],
+              "songs": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "name": "string",
+                  "website": "string",
+                  "songDuration": "string",
+                  "scoreNumber": "string",
+                  "description": "string",
+                  "play": {}
+                }
+              ],
+              "orchestrations": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "orchestraName": "string",
+                  "orchestraSize": "string",
+                  "orchestraDescription": "string"
+                }
+              ],
+              "contributions": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "artistId": 123,
+                  "contributionType": "string",
+                  "contributionName": "string",
+                  "award": "string",
+                  "play": {},
+                  "artist": {
+                    "id": 123,
+                    "uuid": "string",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "dob": "string",
+                    "bio": "string",
+                    "hometown": "string",
+                    "homeState": "string",
+                    "homeCountry": "string",
+                    "unionAffiliation": "string",
+                    "professionalName": "string",
+                    "awards": [
+                      "string"
+                    ],
+                    "resourceLocation": "string",
+                    "website": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "playContributions": {},
+                    "productionContributions": {}
+                  }
+                }
+              ],
+              "featuredProductions": [
+                {}
+              ],
+              "featuredArtistContributions": [
+                {}
+              ]
+            },
+            "venue": {},
+            "contributions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "productionId": 123,
+                "artistId": 123,
+                "contributionType": "string",
+                "contributionName": "string",
+                "award": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "production": {},
+                "artist": {
+                  "id": 123,
+                  "uuid": "string",
+                  "firstName": "string",
+                  "lastName": "string",
+                  "dob": "string",
+                  "bio": "string",
+                  "hometown": "string",
+                  "homeState": "string",
+                  "homeCountry": "string",
+                  "unionAffiliation": "string",
+                  "professionalName": "string",
+                  "awards": [
+                    "string"
+                  ],
+                  "resourceLocation": "string",
+                  "website": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "playContributions": {},
+                  "productionContributions": {}
+                }
+              }
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          }
+        ],
+        "featuredArtistContributions": [
+          {}
+        ]
+      },
+      "productions": [
+        {
+          "id": 123,
+          "uuid": "string",
+          "institutionId": "string",
+          "institutionProgramId": "string",
+          "playId": "string",
+          "venueId": "string",
+          "runtime": 123,
+          "productionStartDate": "string",
+          "productionEndDate": "string",
+          "captureStartDate": "string",
+          "captureEndDate": "string",
+          "themes": [
+            "string"
+          ],
+          "licenseType": "string",
+          "stageConfiguration": "string",
+          "percentSeatsSold": 123,
+          "resourceLocation": "string",
+          "createdAt": "string",
+          "updatedAt": "string",
+          "institution": {},
+          "institutionProgram": {},
+          "play": {
+            "id": 123,
+            "uuid": "string",
+            "brandId": 123,
+            "brand": {
+              "id": 123,
+              "uuid": "string",
+              "name": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "plays": [
+                {}
+              ]
+            },
+            "playType": "string",
+            "Enum": [
+              "PLAY",
+              "MUSICAL"
+            ],
+            "licenseName": "string",
+            "licenseHouse": "string",
+            "licenseWebsite": "string",
+            "originalProductionYear": "string",
+            "shortDescription": "string",
+            "longDescription": "string",
+            "synopsis": "string",
+            "history": "string",
+            "duration": 123,
+            "awards": [
+              "string"
+            ],
+            "genres": [
+              "string"
+            ],
+            "musicStyles": [
+              "string"
+            ],
+            "themes": [
+              "string"
+            ],
+            "vocalRequirements": [
+              "string"
+            ],
+            "ensembleSize": "string",
+            "numberOfActs": 123,
+            "audienceRating": "string",
+            "playSetting": "string",
+            "danceRequirements": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "characters": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": "string",
+                "name": "string",
+                "tier": "string",
+                "gender": "string",
+                "ageRangeTop": 123,
+                "ageRangeBottom": 123,
+                "race": "string",
+                "vocalRangeTop": "string",
+                "vocalRangeBottom": "string",
+                "voiceType": "string",
+                "castingNotes": "string",
+                "description": "string",
+                "ethnicity": "string",
+                "play": {}
+              }
+            ],
+            "songs": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": 123,
+                "name": "string",
+                "website": "string",
+                "songDuration": "string",
+                "scoreNumber": "string",
+                "description": "string",
+                "play": {}
+              }
+            ],
+            "orchestrations": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": "string",
+                "orchestraName": "string",
+                "orchestraSize": "string",
+                "orchestraDescription": "string"
+              }
+            ],
+            "contributions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": 123,
+                "artistId": 123,
+                "contributionType": "string",
+                "contributionName": "string",
+                "award": "string",
+                "play": {},
+                "artist": {
+                  "id": 123,
+                  "uuid": "string",
+                  "firstName": "string",
+                  "lastName": "string",
+                  "dob": "string",
+                  "bio": "string",
+                  "hometown": "string",
+                  "homeState": "string",
+                  "homeCountry": "string",
+                  "unionAffiliation": "string",
+                  "professionalName": "string",
+                  "awards": [
+                    "string"
+                  ],
+                  "resourceLocation": "string",
+                  "website": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "playContributions": {},
+                  "productionContributions": {}
+                }
+              }
+            ],
+            "featuredProductions": [
+              {}
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          },
+          "venue": {},
+          "contributions": [
+            {
+              "id": 123,
+              "uuid": "string",
+              "productionId": 123,
+              "artistId": 123,
+              "contributionType": "string",
+              "contributionName": "string",
+              "award": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "production": {},
+              "artist": {
+                "id": 123,
+                "uuid": "string",
+                "firstName": "string",
+                "lastName": "string",
+                "dob": "string",
+                "bio": "string",
+                "hometown": "string",
+                "homeState": "string",
+                "homeCountry": "string",
+                "unionAffiliation": "string",
+                "professionalName": "string",
+                "awards": [
+                  "string"
+                ],
+                "resourceLocation": "string",
+                "website": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "playContributions": {},
+                "productionContributions": {}
+              }
+            }
+          ],
+          "featuredArtistContributions": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "uuid": "string",
+      "institutionId": 123,
+      "name": "string",
+      "street": "string",
+      "city": "string",
+      "state": "string",
+      "zipcode": "string",
+      "latitude": 123,
+      "longitude": 123,
+      "website": "string",
+      "stageConfiguration": [
+        "string"
+      ],
+      "specialFeatures": "string",
+      "venueCapacity": "string",
+      "completionYear": "string",
+      "resourceLocation": "string",
+      "createdAt": "string",
+      "updatedAt": "string",
+      "institution": {
+        "id": 123,
+        "uuid": "string",
+        "type": "string",
+        "name": "string",
+        "street": "string",
+        "city": "string",
+        "state": "string",
+        "zipcode": "string",
+        "latitude": 123,
+        "longitude": 123,
+        "website": "string",
+        "resourceLocation": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "programs": [
+          {
+            "id": 123,
+            "uuid": "string",
+            "institutionId": 123,
+            "name": "string",
+            "artistHeadId": 123,
+            "website": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "institution": {},
+            "artistHead": {
+              "id": 123,
+              "uuid": "string",
+              "firstName": "string",
+              "lastName": "string",
+              "dob": "string",
+              "bio": "string",
+              "hometown": "string",
+              "homeState": "string",
+              "homeCountry": "string",
+              "unionAffiliation": "string",
+              "professionalName": "string",
+              "awards": [
+                "string"
+              ],
+              "resourceLocation": "string",
+              "website": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "playContributions": {},
+              "productionContributions": {}
+            },
+            "featuredProductions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "institutionId": "string",
+                "institutionProgramId": "string",
+                "playId": "string",
+                "venueId": "string",
+                "runtime": 123,
+                "productionStartDate": "string",
+                "productionEndDate": "string",
+                "captureStartDate": "string",
+                "captureEndDate": "string",
+                "themes": [
+                  "string"
+                ],
+                "licenseType": "string",
+                "stageConfiguration": "string",
+                "percentSeatsSold": 123,
+                "resourceLocation": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "institution": {},
+                "institutionProgram": {},
+                "play": {
+                  "id": 123,
+                  "uuid": "string",
+                  "brandId": 123,
+                  "brand": {
+                    "id": 123,
+                    "uuid": "string",
+                    "name": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "plays": [
+                      {}
+                    ]
+                  },
+                  "playType": "string",
+                  "Enum": [
+                    "PLAY",
+                    "MUSICAL"
+                  ],
+                  "licenseName": "string",
+                  "licenseHouse": "string",
+                  "licenseWebsite": "string",
+                  "originalProductionYear": "string",
+                  "shortDescription": "string",
+                  "longDescription": "string",
+                  "synopsis": "string",
+                  "history": "string",
+                  "duration": 123,
+                  "awards": [
+                    "string"
+                  ],
+                  "genres": [
+                    "string"
+                  ],
+                  "musicStyles": [
+                    "string"
+                  ],
+                  "themes": [
+                    "string"
+                  ],
+                  "vocalRequirements": [
+                    "string"
+                  ],
+                  "ensembleSize": "string",
+                  "numberOfActs": 123,
+                  "audienceRating": "string",
+                  "playSetting": "string",
+                  "danceRequirements": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "characters": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": "string",
+                      "name": "string",
+                      "tier": "string",
+                      "gender": "string",
+                      "ageRangeTop": 123,
+                      "ageRangeBottom": 123,
+                      "race": "string",
+                      "vocalRangeTop": "string",
+                      "vocalRangeBottom": "string",
+                      "voiceType": "string",
+                      "castingNotes": "string",
+                      "description": "string",
+                      "ethnicity": "string",
+                      "play": {}
+                    }
+                  ],
+                  "songs": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": 123,
+                      "name": "string",
+                      "website": "string",
+                      "songDuration": "string",
+                      "scoreNumber": "string",
+                      "description": "string",
+                      "play": {}
+                    }
+                  ],
+                  "orchestrations": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": "string",
+                      "orchestraName": "string",
+                      "orchestraSize": "string",
+                      "orchestraDescription": "string"
+                    }
+                  ],
+                  "contributions": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": 123,
+                      "artistId": 123,
+                      "contributionType": "string",
+                      "contributionName": "string",
+                      "award": "string",
+                      "play": {},
+                      "artist": {
+                        "id": 123,
+                        "uuid": "string",
+                        "firstName": "string",
+                        "lastName": "string",
+                        "dob": "string",
+                        "bio": "string",
+                        "hometown": "string",
+                        "homeState": "string",
+                        "homeCountry": "string",
+                        "unionAffiliation": "string",
+                        "professionalName": "string",
+                        "awards": [
+                          "string"
+                        ],
+                        "resourceLocation": "string",
+                        "website": "string",
+                        "createdAt": "string",
+                        "updatedAt": "string",
+                        "playContributions": {},
+                        "productionContributions": {}
+                      }
+                    }
+                  ],
+                  "featuredProductions": [
+                    {}
+                  ],
+                  "featuredArtistContributions": [
+                    {}
+                  ]
+                },
+                "venue": {},
+                "contributions": [
+                  {
+                    "id": 123,
+                    "uuid": "string",
+                    "productionId": 123,
+                    "artistId": 123,
+                    "contributionType": "string",
+                    "contributionName": "string",
+                    "award": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "production": {},
+                    "artist": {
+                      "id": 123,
+                      "uuid": "string",
+                      "firstName": "string",
+                      "lastName": "string",
+                      "dob": "string",
+                      "bio": "string",
+                      "hometown": "string",
+                      "homeState": "string",
+                      "homeCountry": "string",
+                      "unionAffiliation": "string",
+                      "professionalName": "string",
+                      "awards": [
+                        "string"
+                      ],
+                      "resourceLocation": "string",
+                      "website": "string",
+                      "createdAt": "string",
+                      "updatedAt": "string",
+                      "playContributions": {},
+                      "productionContributions": {}
+                    }
+                  }
+                ],
+                "featuredArtistContributions": [
+                  {}
+                ]
+              }
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          }
+        ],
+        "productions": [
+          {
+            "id": 123,
+            "uuid": "string",
+            "institutionId": "string",
+            "institutionProgramId": "string",
+            "playId": "string",
+            "venueId": "string",
+            "runtime": 123,
+            "productionStartDate": "string",
+            "productionEndDate": "string",
+            "captureStartDate": "string",
+            "captureEndDate": "string",
+            "themes": [
+              "string"
+            ],
+            "licenseType": "string",
+            "stageConfiguration": "string",
+            "percentSeatsSold": 123,
+            "resourceLocation": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "institution": {},
+            "institutionProgram": {},
+            "play": {
+              "id": 123,
+              "uuid": "string",
+              "brandId": 123,
+              "brand": {
+                "id": 123,
+                "uuid": "string",
+                "name": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "plays": [
+                  {}
+                ]
+              },
+              "playType": "string",
+              "Enum": [
+                "PLAY",
+                "MUSICAL"
+              ],
+              "licenseName": "string",
+              "licenseHouse": "string",
+              "licenseWebsite": "string",
+              "originalProductionYear": "string",
+              "shortDescription": "string",
+              "longDescription": "string",
+              "synopsis": "string",
+              "history": "string",
+              "duration": 123,
+              "awards": [
+                "string"
+              ],
+              "genres": [
+                "string"
+              ],
+              "musicStyles": [
+                "string"
+              ],
+              "themes": [
+                "string"
+              ],
+              "vocalRequirements": [
+                "string"
+              ],
+              "ensembleSize": "string",
+              "numberOfActs": 123,
+              "audienceRating": "string",
+              "playSetting": "string",
+              "danceRequirements": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "characters": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "name": "string",
+                  "tier": "string",
+                  "gender": "string",
+                  "ageRangeTop": 123,
+                  "ageRangeBottom": 123,
+                  "race": "string",
+                  "vocalRangeTop": "string",
+                  "vocalRangeBottom": "string",
+                  "voiceType": "string",
+                  "castingNotes": "string",
+                  "description": "string",
+                  "ethnicity": "string",
+                  "play": {}
+                }
+              ],
+              "songs": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "name": "string",
+                  "website": "string",
+                  "songDuration": "string",
+                  "scoreNumber": "string",
+                  "description": "string",
+                  "play": {}
+                }
+              ],
+              "orchestrations": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "orchestraName": "string",
+                  "orchestraSize": "string",
+                  "orchestraDescription": "string"
+                }
+              ],
+              "contributions": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "artistId": 123,
+                  "contributionType": "string",
+                  "contributionName": "string",
+                  "award": "string",
+                  "play": {},
+                  "artist": {
+                    "id": 123,
+                    "uuid": "string",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "dob": "string",
+                    "bio": "string",
+                    "hometown": "string",
+                    "homeState": "string",
+                    "homeCountry": "string",
+                    "unionAffiliation": "string",
+                    "professionalName": "string",
+                    "awards": [
+                      "string"
+                    ],
+                    "resourceLocation": "string",
+                    "website": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "playContributions": {},
+                    "productionContributions": {}
+                  }
+                }
+              ],
+              "featuredProductions": [
+                {}
+              ],
+              "featuredArtistContributions": [
+                {}
+              ]
+            },
+            "venue": {},
+            "contributions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "productionId": 123,
+                "artistId": 123,
+                "contributionType": "string",
+                "contributionName": "string",
+                "award": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "production": {},
+                "artist": {
+                  "id": 123,
+                  "uuid": "string",
+                  "firstName": "string",
+                  "lastName": "string",
+                  "dob": "string",
+                  "bio": "string",
+                  "hometown": "string",
+                  "homeState": "string",
+                  "homeCountry": "string",
+                  "unionAffiliation": "string",
+                  "professionalName": "string",
+                  "awards": [
+                    "string"
+                  ],
+                  "resourceLocation": "string",
+                  "website": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "playContributions": {},
+                  "productionContributions": {}
+                }
+              }
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          }
+        ],
+        "featuredProductions": [
+          {
+            "id": 123,
+            "uuid": "string",
+            "institutionId": "string",
+            "institutionProgramId": "string",
+            "playId": "string",
+            "venueId": "string",
+            "runtime": 123,
+            "productionStartDate": "string",
+            "productionEndDate": "string",
+            "captureStartDate": "string",
+            "captureEndDate": "string",
+            "themes": [
+              "string"
+            ],
+            "licenseType": "string",
+            "stageConfiguration": "string",
+            "percentSeatsSold": 123,
+            "resourceLocation": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "institution": {},
+            "institutionProgram": {},
+            "play": {
+              "id": 123,
+              "uuid": "string",
+              "brandId": 123,
+              "brand": {
+                "id": 123,
+                "uuid": "string",
+                "name": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "plays": [
+                  {}
+                ]
+              },
+              "playType": "string",
+              "Enum": [
+                "PLAY",
+                "MUSICAL"
+              ],
+              "licenseName": "string",
+              "licenseHouse": "string",
+              "licenseWebsite": "string",
+              "originalProductionYear": "string",
+              "shortDescription": "string",
+              "longDescription": "string",
+              "synopsis": "string",
+              "history": "string",
+              "duration": 123,
+              "awards": [
+                "string"
+              ],
+              "genres": [
+                "string"
+              ],
+              "musicStyles": [
+                "string"
+              ],
+              "themes": [
+                "string"
+              ],
+              "vocalRequirements": [
+                "string"
+              ],
+              "ensembleSize": "string",
+              "numberOfActs": 123,
+              "audienceRating": "string",
+              "playSetting": "string",
+              "danceRequirements": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "characters": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "name": "string",
+                  "tier": "string",
+                  "gender": "string",
+                  "ageRangeTop": 123,
+                  "ageRangeBottom": 123,
+                  "race": "string",
+                  "vocalRangeTop": "string",
+                  "vocalRangeBottom": "string",
+                  "voiceType": "string",
+                  "castingNotes": "string",
+                  "description": "string",
+                  "ethnicity": "string",
+                  "play": {}
+                }
+              ],
+              "songs": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "name": "string",
+                  "website": "string",
+                  "songDuration": "string",
+                  "scoreNumber": "string",
+                  "description": "string",
+                  "play": {}
+                }
+              ],
+              "orchestrations": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "orchestraName": "string",
+                  "orchestraSize": "string",
+                  "orchestraDescription": "string"
+                }
+              ],
+              "contributions": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "artistId": 123,
+                  "contributionType": "string",
+                  "contributionName": "string",
+                  "award": "string",
+                  "play": {},
+                  "artist": {
+                    "id": 123,
+                    "uuid": "string",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "dob": "string",
+                    "bio": "string",
+                    "hometown": "string",
+                    "homeState": "string",
+                    "homeCountry": "string",
+                    "unionAffiliation": "string",
+                    "professionalName": "string",
+                    "awards": [
+                      "string"
+                    ],
+                    "resourceLocation": "string",
+                    "website": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "playContributions": {},
+                    "productionContributions": {}
+                  }
+                }
+              ],
+              "featuredProductions": [
+                {}
+              ],
+              "featuredArtistContributions": [
+                {}
+              ]
+            },
+            "venue": {},
+            "contributions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "productionId": 123,
+                "artistId": 123,
+                "contributionType": "string",
+                "contributionName": "string",
+                "award": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "production": {},
+                "artist": {
+                  "id": 123,
+                  "uuid": "string",
+                  "firstName": "string",
+                  "lastName": "string",
+                  "dob": "string",
+                  "bio": "string",
+                  "hometown": "string",
+                  "homeState": "string",
+                  "homeCountry": "string",
+                  "unionAffiliation": "string",
+                  "professionalName": "string",
+                  "awards": [
+                    "string"
+                  ],
+                  "resourceLocation": "string",
+                  "website": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "playContributions": {},
+                  "productionContributions": {}
+                }
+              }
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          }
+        ],
+        "featuredArtistContributions": [
+          {}
+        ]
+      },
+      "productions": [
+        {
+          "id": 123,
+          "uuid": "string",
+          "institutionId": "string",
+          "institutionProgramId": "string",
+          "playId": "string",
+          "venueId": "string",
+          "runtime": 123,
+          "productionStartDate": "string",
+          "productionEndDate": "string",
+          "captureStartDate": "string",
+          "captureEndDate": "string",
+          "themes": [
+            "string"
+          ],
+          "licenseType": "string",
+          "stageConfiguration": "string",
+          "percentSeatsSold": 123,
+          "resourceLocation": "string",
+          "createdAt": "string",
+          "updatedAt": "string",
+          "institution": {},
+          "institutionProgram": {},
+          "play": {
+            "id": 123,
+            "uuid": "string",
+            "brandId": 123,
+            "brand": {
+              "id": 123,
+              "uuid": "string",
+              "name": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "plays": [
+                {}
+              ]
+            },
+            "playType": "string",
+            "Enum": [
+              "PLAY",
+              "MUSICAL"
+            ],
+            "licenseName": "string",
+            "licenseHouse": "string",
+            "licenseWebsite": "string",
+            "originalProductionYear": "string",
+            "shortDescription": "string",
+            "longDescription": "string",
+            "synopsis": "string",
+            "history": "string",
+            "duration": 123,
+            "awards": [
+              "string"
+            ],
+            "genres": [
+              "string"
+            ],
+            "musicStyles": [
+              "string"
+            ],
+            "themes": [
+              "string"
+            ],
+            "vocalRequirements": [
+              "string"
+            ],
+            "ensembleSize": "string",
+            "numberOfActs": 123,
+            "audienceRating": "string",
+            "playSetting": "string",
+            "danceRequirements": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "characters": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": "string",
+                "name": "string",
+                "tier": "string",
+                "gender": "string",
+                "ageRangeTop": 123,
+                "ageRangeBottom": 123,
+                "race": "string",
+                "vocalRangeTop": "string",
+                "vocalRangeBottom": "string",
+                "voiceType": "string",
+                "castingNotes": "string",
+                "description": "string",
+                "ethnicity": "string",
+                "play": {}
+              }
+            ],
+            "songs": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": 123,
+                "name": "string",
+                "website": "string",
+                "songDuration": "string",
+                "scoreNumber": "string",
+                "description": "string",
+                "play": {}
+              }
+            ],
+            "orchestrations": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": "string",
+                "orchestraName": "string",
+                "orchestraSize": "string",
+                "orchestraDescription": "string"
+              }
+            ],
+            "contributions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": 123,
+                "artistId": 123,
+                "contributionType": "string",
+                "contributionName": "string",
+                "award": "string",
+                "play": {},
+                "artist": {
+                  "id": 123,
+                  "uuid": "string",
+                  "firstName": "string",
+                  "lastName": "string",
+                  "dob": "string",
+                  "bio": "string",
+                  "hometown": "string",
+                  "homeState": "string",
+                  "homeCountry": "string",
+                  "unionAffiliation": "string",
+                  "professionalName": "string",
+                  "awards": [
+                    "string"
+                  ],
+                  "resourceLocation": "string",
+                  "website": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "playContributions": {},
+                  "productionContributions": {}
+                }
+              }
+            ],
+            "featuredProductions": [
+              {}
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          },
+          "venue": {},
+          "contributions": [
+            {
+              "id": 123,
+              "uuid": "string",
+              "productionId": 123,
+              "artistId": 123,
+              "contributionType": "string",
+              "contributionName": "string",
+              "award": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "production": {},
+              "artist": {
+                "id": 123,
+                "uuid": "string",
+                "firstName": "string",
+                "lastName": "string",
+                "dob": "string",
+                "bio": "string",
+                "hometown": "string",
+                "homeState": "string",
+                "homeCountry": "string",
+                "unionAffiliation": "string",
+                "professionalName": "string",
+                "awards": [
+                  "string"
+                ],
+                "resourceLocation": "string",
+                "website": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "playContributions": {},
+                "productionContributions": {}
+              }
+            }
+          ],
+          "featuredArtistContributions": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "uuid": "string",
+      "institutionId": 123,
+      "name": "string",
+      "street": "string",
+      "city": "string",
+      "state": "string",
+      "zipcode": "string",
+      "latitude": 123,
+      "longitude": 123,
+      "website": "string",
+      "stageConfiguration": [
+        "string"
+      ],
+      "specialFeatures": "string",
+      "venueCapacity": "string",
+      "completionYear": "string",
+      "resourceLocation": "string",
+      "createdAt": "string",
+      "updatedAt": "string",
+      "institution": {
+        "id": 123,
+        "uuid": "string",
+        "type": "string",
+        "name": "string",
+        "street": "string",
+        "city": "string",
+        "state": "string",
+        "zipcode": "string",
+        "latitude": 123,
+        "longitude": 123,
+        "website": "string",
+        "resourceLocation": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "programs": [
+          {
+            "id": 123,
+            "uuid": "string",
+            "institutionId": 123,
+            "name": "string",
+            "artistHeadId": 123,
+            "website": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "institution": {},
+            "artistHead": {
+              "id": 123,
+              "uuid": "string",
+              "firstName": "string",
+              "lastName": "string",
+              "dob": "string",
+              "bio": "string",
+              "hometown": "string",
+              "homeState": "string",
+              "homeCountry": "string",
+              "unionAffiliation": "string",
+              "professionalName": "string",
+              "awards": [
+                "string"
+              ],
+              "resourceLocation": "string",
+              "website": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "playContributions": {},
+              "productionContributions": {}
+            },
+            "featuredProductions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "institutionId": "string",
+                "institutionProgramId": "string",
+                "playId": "string",
+                "venueId": "string",
+                "runtime": 123,
+                "productionStartDate": "string",
+                "productionEndDate": "string",
+                "captureStartDate": "string",
+                "captureEndDate": "string",
+                "themes": [
+                  "string"
+                ],
+                "licenseType": "string",
+                "stageConfiguration": "string",
+                "percentSeatsSold": 123,
+                "resourceLocation": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "institution": {},
+                "institutionProgram": {},
+                "play": {
+                  "id": 123,
+                  "uuid": "string",
+                  "brandId": 123,
+                  "brand": {
+                    "id": 123,
+                    "uuid": "string",
+                    "name": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "plays": [
+                      {}
+                    ]
+                  },
+                  "playType": "string",
+                  "Enum": [
+                    "PLAY",
+                    "MUSICAL"
+                  ],
+                  "licenseName": "string",
+                  "licenseHouse": "string",
+                  "licenseWebsite": "string",
+                  "originalProductionYear": "string",
+                  "shortDescription": "string",
+                  "longDescription": "string",
+                  "synopsis": "string",
+                  "history": "string",
+                  "duration": 123,
+                  "awards": [
+                    "string"
+                  ],
+                  "genres": [
+                    "string"
+                  ],
+                  "musicStyles": [
+                    "string"
+                  ],
+                  "themes": [
+                    "string"
+                  ],
+                  "vocalRequirements": [
+                    "string"
+                  ],
+                  "ensembleSize": "string",
+                  "numberOfActs": 123,
+                  "audienceRating": "string",
+                  "playSetting": "string",
+                  "danceRequirements": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "characters": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": "string",
+                      "name": "string",
+                      "tier": "string",
+                      "gender": "string",
+                      "ageRangeTop": 123,
+                      "ageRangeBottom": 123,
+                      "race": "string",
+                      "vocalRangeTop": "string",
+                      "vocalRangeBottom": "string",
+                      "voiceType": "string",
+                      "castingNotes": "string",
+                      "description": "string",
+                      "ethnicity": "string",
+                      "play": {}
+                    }
+                  ],
+                  "songs": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": 123,
+                      "name": "string",
+                      "website": "string",
+                      "songDuration": "string",
+                      "scoreNumber": "string",
+                      "description": "string",
+                      "play": {}
+                    }
+                  ],
+                  "orchestrations": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": "string",
+                      "orchestraName": "string",
+                      "orchestraSize": "string",
+                      "orchestraDescription": "string"
+                    }
+                  ],
+                  "contributions": [
+                    {
+                      "id": 123,
+                      "uuid": "string",
+                      "playId": 123,
+                      "artistId": 123,
+                      "contributionType": "string",
+                      "contributionName": "string",
+                      "award": "string",
+                      "play": {},
+                      "artist": {
+                        "id": 123,
+                        "uuid": "string",
+                        "firstName": "string",
+                        "lastName": "string",
+                        "dob": "string",
+                        "bio": "string",
+                        "hometown": "string",
+                        "homeState": "string",
+                        "homeCountry": "string",
+                        "unionAffiliation": "string",
+                        "professionalName": "string",
+                        "awards": [
+                          "string"
+                        ],
+                        "resourceLocation": "string",
+                        "website": "string",
+                        "createdAt": "string",
+                        "updatedAt": "string",
+                        "playContributions": {},
+                        "productionContributions": {}
+                      }
+                    }
+                  ],
+                  "featuredProductions": [
+                    {}
+                  ],
+                  "featuredArtistContributions": [
+                    {}
+                  ]
+                },
+                "venue": {},
+                "contributions": [
+                  {
+                    "id": 123,
+                    "uuid": "string",
+                    "productionId": 123,
+                    "artistId": 123,
+                    "contributionType": "string",
+                    "contributionName": "string",
+                    "award": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "production": {},
+                    "artist": {
+                      "id": 123,
+                      "uuid": "string",
+                      "firstName": "string",
+                      "lastName": "string",
+                      "dob": "string",
+                      "bio": "string",
+                      "hometown": "string",
+                      "homeState": "string",
+                      "homeCountry": "string",
+                      "unionAffiliation": "string",
+                      "professionalName": "string",
+                      "awards": [
+                        "string"
+                      ],
+                      "resourceLocation": "string",
+                      "website": "string",
+                      "createdAt": "string",
+                      "updatedAt": "string",
+                      "playContributions": {},
+                      "productionContributions": {}
+                    }
+                  }
+                ],
+                "featuredArtistContributions": [
+                  {}
+                ]
+              }
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          }
+        ],
+        "productions": [
+          {
+            "id": 123,
+            "uuid": "string",
+            "institutionId": "string",
+            "institutionProgramId": "string",
+            "playId": "string",
+            "venueId": "string",
+            "runtime": 123,
+            "productionStartDate": "string",
+            "productionEndDate": "string",
+            "captureStartDate": "string",
+            "captureEndDate": "string",
+            "themes": [
+              "string"
+            ],
+            "licenseType": "string",
+            "stageConfiguration": "string",
+            "percentSeatsSold": 123,
+            "resourceLocation": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "institution": {},
+            "institutionProgram": {},
+            "play": {
+              "id": 123,
+              "uuid": "string",
+              "brandId": 123,
+              "brand": {
+                "id": 123,
+                "uuid": "string",
+                "name": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "plays": [
+                  {}
+                ]
+              },
+              "playType": "string",
+              "Enum": [
+                "PLAY",
+                "MUSICAL"
+              ],
+              "licenseName": "string",
+              "licenseHouse": "string",
+              "licenseWebsite": "string",
+              "originalProductionYear": "string",
+              "shortDescription": "string",
+              "longDescription": "string",
+              "synopsis": "string",
+              "history": "string",
+              "duration": 123,
+              "awards": [
+                "string"
+              ],
+              "genres": [
+                "string"
+              ],
+              "musicStyles": [
+                "string"
+              ],
+              "themes": [
+                "string"
+              ],
+              "vocalRequirements": [
+                "string"
+              ],
+              "ensembleSize": "string",
+              "numberOfActs": 123,
+              "audienceRating": "string",
+              "playSetting": "string",
+              "danceRequirements": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "characters": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "name": "string",
+                  "tier": "string",
+                  "gender": "string",
+                  "ageRangeTop": 123,
+                  "ageRangeBottom": 123,
+                  "race": "string",
+                  "vocalRangeTop": "string",
+                  "vocalRangeBottom": "string",
+                  "voiceType": "string",
+                  "castingNotes": "string",
+                  "description": "string",
+                  "ethnicity": "string",
+                  "play": {}
+                }
+              ],
+              "songs": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "name": "string",
+                  "website": "string",
+                  "songDuration": "string",
+                  "scoreNumber": "string",
+                  "description": "string",
+                  "play": {}
+                }
+              ],
+              "orchestrations": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "orchestraName": "string",
+                  "orchestraSize": "string",
+                  "orchestraDescription": "string"
+                }
+              ],
+              "contributions": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "artistId": 123,
+                  "contributionType": "string",
+                  "contributionName": "string",
+                  "award": "string",
+                  "play": {},
+                  "artist": {
+                    "id": 123,
+                    "uuid": "string",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "dob": "string",
+                    "bio": "string",
+                    "hometown": "string",
+                    "homeState": "string",
+                    "homeCountry": "string",
+                    "unionAffiliation": "string",
+                    "professionalName": "string",
+                    "awards": [
+                      "string"
+                    ],
+                    "resourceLocation": "string",
+                    "website": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "playContributions": {},
+                    "productionContributions": {}
+                  }
+                }
+              ],
+              "featuredProductions": [
+                {}
+              ],
+              "featuredArtistContributions": [
+                {}
+              ]
+            },
+            "venue": {},
+            "contributions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "productionId": 123,
+                "artistId": 123,
+                "contributionType": "string",
+                "contributionName": "string",
+                "award": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "production": {},
+                "artist": {
+                  "id": 123,
+                  "uuid": "string",
+                  "firstName": "string",
+                  "lastName": "string",
+                  "dob": "string",
+                  "bio": "string",
+                  "hometown": "string",
+                  "homeState": "string",
+                  "homeCountry": "string",
+                  "unionAffiliation": "string",
+                  "professionalName": "string",
+                  "awards": [
+                    "string"
+                  ],
+                  "resourceLocation": "string",
+                  "website": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "playContributions": {},
+                  "productionContributions": {}
+                }
+              }
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          }
+        ],
+        "featuredProductions": [
+          {
+            "id": 123,
+            "uuid": "string",
+            "institutionId": "string",
+            "institutionProgramId": "string",
+            "playId": "string",
+            "venueId": "string",
+            "runtime": 123,
+            "productionStartDate": "string",
+            "productionEndDate": "string",
+            "captureStartDate": "string",
+            "captureEndDate": "string",
+            "themes": [
+              "string"
+            ],
+            "licenseType": "string",
+            "stageConfiguration": "string",
+            "percentSeatsSold": 123,
+            "resourceLocation": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "institution": {},
+            "institutionProgram": {},
+            "play": {
+              "id": 123,
+              "uuid": "string",
+              "brandId": 123,
+              "brand": {
+                "id": 123,
+                "uuid": "string",
+                "name": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "plays": [
+                  {}
+                ]
+              },
+              "playType": "string",
+              "Enum": [
+                "PLAY",
+                "MUSICAL"
+              ],
+              "licenseName": "string",
+              "licenseHouse": "string",
+              "licenseWebsite": "string",
+              "originalProductionYear": "string",
+              "shortDescription": "string",
+              "longDescription": "string",
+              "synopsis": "string",
+              "history": "string",
+              "duration": 123,
+              "awards": [
+                "string"
+              ],
+              "genres": [
+                "string"
+              ],
+              "musicStyles": [
+                "string"
+              ],
+              "themes": [
+                "string"
+              ],
+              "vocalRequirements": [
+                "string"
+              ],
+              "ensembleSize": "string",
+              "numberOfActs": 123,
+              "audienceRating": "string",
+              "playSetting": "string",
+              "danceRequirements": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "characters": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "name": "string",
+                  "tier": "string",
+                  "gender": "string",
+                  "ageRangeTop": 123,
+                  "ageRangeBottom": 123,
+                  "race": "string",
+                  "vocalRangeTop": "string",
+                  "vocalRangeBottom": "string",
+                  "voiceType": "string",
+                  "castingNotes": "string",
+                  "description": "string",
+                  "ethnicity": "string",
+                  "play": {}
+                }
+              ],
+              "songs": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "name": "string",
+                  "website": "string",
+                  "songDuration": "string",
+                  "scoreNumber": "string",
+                  "description": "string",
+                  "play": {}
+                }
+              ],
+              "orchestrations": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": "string",
+                  "orchestraName": "string",
+                  "orchestraSize": "string",
+                  "orchestraDescription": "string"
+                }
+              ],
+              "contributions": [
+                {
+                  "id": 123,
+                  "uuid": "string",
+                  "playId": 123,
+                  "artistId": 123,
+                  "contributionType": "string",
+                  "contributionName": "string",
+                  "award": "string",
+                  "play": {},
+                  "artist": {
+                    "id": 123,
+                    "uuid": "string",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "dob": "string",
+                    "bio": "string",
+                    "hometown": "string",
+                    "homeState": "string",
+                    "homeCountry": "string",
+                    "unionAffiliation": "string",
+                    "professionalName": "string",
+                    "awards": [
+                      "string"
+                    ],
+                    "resourceLocation": "string",
+                    "website": "string",
+                    "createdAt": "string",
+                    "updatedAt": "string",
+                    "playContributions": {},
+                    "productionContributions": {}
+                  }
+                }
+              ],
+              "featuredProductions": [
+                {}
+              ],
+              "featuredArtistContributions": [
+                {}
+              ]
+            },
+            "venue": {},
+            "contributions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "productionId": 123,
+                "artistId": 123,
+                "contributionType": "string",
+                "contributionName": "string",
+                "award": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "production": {},
+                "artist": {
+                  "id": 123,
+                  "uuid": "string",
+                  "firstName": "string",
+                  "lastName": "string",
+                  "dob": "string",
+                  "bio": "string",
+                  "hometown": "string",
+                  "homeState": "string",
+                  "homeCountry": "string",
+                  "unionAffiliation": "string",
+                  "professionalName": "string",
+                  "awards": [
+                    "string"
+                  ],
+                  "resourceLocation": "string",
+                  "website": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "playContributions": {},
+                  "productionContributions": {}
+                }
+              }
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          }
+        ],
+        "featuredArtistContributions": [
+          {}
+        ]
+      },
+      "productions": [
+        {
+          "id": 123,
+          "uuid": "string",
+          "institutionId": "string",
+          "institutionProgramId": "string",
+          "playId": "string",
+          "venueId": "string",
+          "runtime": 123,
+          "productionStartDate": "string",
+          "productionEndDate": "string",
+          "captureStartDate": "string",
+          "captureEndDate": "string",
+          "themes": [
+            "string"
+          ],
+          "licenseType": "string",
+          "stageConfiguration": "string",
+          "percentSeatsSold": 123,
+          "resourceLocation": "string",
+          "createdAt": "string",
+          "updatedAt": "string",
+          "institution": {},
+          "institutionProgram": {},
+          "play": {
+            "id": 123,
+            "uuid": "string",
+            "brandId": 123,
+            "brand": {
+              "id": 123,
+              "uuid": "string",
+              "name": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "plays": [
+                {}
+              ]
+            },
+            "playType": "string",
+            "Enum": [
+              "PLAY",
+              "MUSICAL"
+            ],
+            "licenseName": "string",
+            "licenseHouse": "string",
+            "licenseWebsite": "string",
+            "originalProductionYear": "string",
+            "shortDescription": "string",
+            "longDescription": "string",
+            "synopsis": "string",
+            "history": "string",
+            "duration": 123,
+            "awards": [
+              "string"
+            ],
+            "genres": [
+              "string"
+            ],
+            "musicStyles": [
+              "string"
+            ],
+            "themes": [
+              "string"
+            ],
+            "vocalRequirements": [
+              "string"
+            ],
+            "ensembleSize": "string",
+            "numberOfActs": 123,
+            "audienceRating": "string",
+            "playSetting": "string",
+            "danceRequirements": "string",
+            "createdAt": "string",
+            "updatedAt": "string",
+            "characters": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": "string",
+                "name": "string",
+                "tier": "string",
+                "gender": "string",
+                "ageRangeTop": 123,
+                "ageRangeBottom": 123,
+                "race": "string",
+                "vocalRangeTop": "string",
+                "vocalRangeBottom": "string",
+                "voiceType": "string",
+                "castingNotes": "string",
+                "description": "string",
+                "ethnicity": "string",
+                "play": {}
+              }
+            ],
+            "songs": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": 123,
+                "name": "string",
+                "website": "string",
+                "songDuration": "string",
+                "scoreNumber": "string",
+                "description": "string",
+                "play": {}
+              }
+            ],
+            "orchestrations": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": "string",
+                "orchestraName": "string",
+                "orchestraSize": "string",
+                "orchestraDescription": "string"
+              }
+            ],
+            "contributions": [
+              {
+                "id": 123,
+                "uuid": "string",
+                "playId": 123,
+                "artistId": 123,
+                "contributionType": "string",
+                "contributionName": "string",
+                "award": "string",
+                "play": {},
+                "artist": {
+                  "id": 123,
+                  "uuid": "string",
+                  "firstName": "string",
+                  "lastName": "string",
+                  "dob": "string",
+                  "bio": "string",
+                  "hometown": "string",
+                  "homeState": "string",
+                  "homeCountry": "string",
+                  "unionAffiliation": "string",
+                  "professionalName": "string",
+                  "awards": [
+                    "string"
+                  ],
+                  "resourceLocation": "string",
+                  "website": "string",
+                  "createdAt": "string",
+                  "updatedAt": "string",
+                  "playContributions": {},
+                  "productionContributions": {}
+                }
+              }
+            ],
+            "featuredProductions": [
+              {}
+            ],
+            "featuredArtistContributions": [
+              {}
+            ]
+          },
+          "venue": {},
+          "contributions": [
+            {
+              "id": 123,
+              "uuid": "string",
+              "productionId": 123,
+              "artistId": 123,
+              "contributionType": "string",
+              "contributionName": "string",
+              "award": "string",
+              "createdAt": "string",
+              "updatedAt": "string",
+              "production": {},
+              "artist": {
+                "id": 123,
+                "uuid": "string",
+                "firstName": "string",
+                "lastName": "string",
+                "dob": "string",
+                "bio": "string",
+                "hometown": "string",
+                "homeState": "string",
+                "homeCountry": "string",
+                "unionAffiliation": "string",
+                "professionalName": "string",
+                "awards": [
+                  "string"
+                ],
+                "resourceLocation": "string",
+                "website": "string",
+                "createdAt": "string",
+                "updatedAt": "string",
+                "playContributions": {},
+                "productionContributions": {}
+              }
+            }
+          ],
+          "featuredArtistContributions": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+

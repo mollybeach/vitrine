@@ -1,0 +1,238 @@
+{
+  "lastPage": 1,
+  "totalRecords": 3,
+  "currentPage": 1,
+  "hasMorePages": false,
+  "data": [
+    {
+      "id": "9eaa9392-be7d-4a92-9eb9-0107dc998b9b",
+      "brandId": "90ebda2b-43c9-4f09-b268-70dd5cb84991",
+      "playType": "Musical, Full-Length",
+      "licenseName": "Hamlet",
+      "licenseHouse": "Concord",
+      "licenseWebsite": "https://www.bmi.com/licensing",
+      "originalProductionYear": null,
+      "shortDescription": null,
+      "longDescription": null,
+      "synopsis": null,
+      "history": null,
+      "duration": 0,
+      "awards": null,
+      "genres": null,
+      "themes": null,
+      "vocalDemands": null,
+      "vocalRequirements": null,
+      "ensembleSize": null,
+      "numberOfActs": 1,
+      "audienceRating": null,
+      "playSetting": null,
+      "danceRequirements": null,
+      "createdAt": "2022-06-14T14:26:45.150Z",
+      "updatedAt": "2022-06-14T14:26:45.150Z",
+      "brand": {
+        "id": "90ebda2b-43c9-4f09-b268-70dd5cb84991",
+        "name": "test",
+        "createdAt": "2022-06-10T00:22:01.541Z",
+        "updatedAt": "2022-06-10T00:22:01.541Z"
+      },
+      "contributions": []
+    },
+    {
+      "id": "7197b157-dac5-4909-8a4d-31a914018ae1",
+      "brandId": "44f27703-eca0-43fa-9bfc-f93cac0d0f45",
+      "playType": "Play",
+      "licenseName": "Test",
+      "licenseHouse": "TRW",
+      "licenseWebsite": null,
+      "originalProductionYear": null,
+      "shortDescription": null,
+      "longDescription": "",
+      "synopsis": null,
+      "history": "test",
+      "duration": 0,
+      "awards": null,
+      "genres": null,
+      "themes": null,
+      "vocalDemands": null,
+      "vocalRequirements": ["Medium Chorus"],
+      "ensembleSize": null,
+      "numberOfActs": 1,
+      "audienceRating": null,
+      "playSetting": null,
+      "danceRequirements": null,
+      "createdAt": "2022-06-10T00:22:16.962Z",
+      "updatedAt": "2022-06-15T19:10:38.896Z",
+      "brand": {
+        "id": "44f27703-eca0-43fa-9bfc-f93cac0d0f45",
+        "name": "Mamma Mia!",
+        "createdAt": "2022-06-12T22:41:23.544Z",
+        "updatedAt": "2022-06-12T22:41:23.544Z"
+      },
+      "contributions": []
+    },
+    {
+      "id": "9df8150d-e3ce-40d2-8ec1-d32cea31494a",
+      "brandId": "44f27703-eca0-43fa-9bfc-f93cac0d0f45",
+      "playType": "Musical, Full-Length",
+      "licenseName": "Test",
+      "licenseHouse": "Dramatists Play Services",
+      "licenseWebsite": null,
+      "originalProductionYear": null,
+      "shortDescription": null,
+      "longDescription": null,
+      "synopsis": null,
+      "history": null,
+      "duration": 10,
+      "awards": null,
+      "genres": null,
+      "themes": null,
+      "vocalDemands": null,
+      "vocalRequirements": null,
+      "ensembleSize": null,
+      "numberOfActs": 1,
+      "audienceRating": null,
+      "playSetting": null,
+      "danceRequirements": null,
+      "createdAt": "2022-06-21T09:20:05.200Z",
+      "updatedAt": "2022-06-21T09:20:05.200Z",
+      "brand": {
+        "id": "44f27703-eca0-43fa-9bfc-f93cac0d0f45",
+        "name": "Mamma Mia!",
+        "createdAt": "2022-06-12T22:41:23.544Z",
+        "updatedAt": "2022-06-12T22:41:23.544Z"
+      },
+      "contributions": []
+    }
+  ]
+}
+
+{/* 
+
+My resume :
+
+
+Skills
+Proficient in Solidity, Javascript, Rust ,Python, C++, Java, R, Golang, and TypeScript, 
+Proficient in SQL, PostgreSQL, MySQL, and MS Excel; familiar with VBA
+Front-end and full stack development using Node.js, React, Vue.js, HTML5, CSS and Django
+
+Experience & Projects
+
+  Magic | Solidity Web3 Engineer				                    			JUL 2021 - PRESENT, REMOTE
+	●  Designed blockchain decentralized smart contracts and architecture following OpenZepplin open-source 			implementation token standards ERC-777/20/721/1155/1400. 
+	●  Developed daApps and Web3js applications with DeFi protocols mechanics and contracts with development tools 		Waffle and Hardhat. Designed frontend UI using React.js, Typescript, Web3.js, and Ethers.js. 
+	● Tested contract protocols on mainnet blockchain forks Rinkby, Kovan and Ropsten. 
+	● Deployed smart contracts and IPFS-backed NFTs created with Hashlips art engine and Pinata to mainnet EVM. 
+	● Collaborated with clients to quickly fix and update issues reported from production. 
+	● Designed Web3js scripts to run database queries on transactions with Etherscan APIs after contract deployment.  
+
+Gula App Studios | Software Engineer 						FEB  2020 - PRESENT, REMOTE 
+       Solidity Web3 Engineer |  AUG  2021 - PRESENT
+	• Establish, implement, and accomplish business objectives in collaboration with the executive and engineering 		leadership teams.
+	•	Responsible for the entire life cycles of blockchain development.
+	•	Business needs should be mapped to blockchain system architecture and module design.
+	•Assuring that the technical goals and timescales for any smart contracts generated by the company are met.
+	•Develop a thorough understanding of the problem domain and collaborate with the rest of the team to come up with 		technical solutions. Craft code and review  smart contracts.
+	•	Identify and prioritize areas for improvement by analyzing transaction and usage statistics.
+	•	Create smart contracts and backend web services that integrate with different blockchain technologies.
+       React JS Engineer | FEB 2020 - DEC 2021
+	•Integrated React Hooks API to render highly tested and readable functional components over complicated, class-based 	components to improve the experience of users and developers by eliminating deeply nested prop-drilling and 		maintaining local state. 
+	•Developed Typescript ReactJS Applications for various projects coding, designed using MUI styled 					components, application management, debugging, monitoring updates and potential security risks. 
+	•Facilitated React to render encapsulated components to accelerate the user and developer’s productivity. By having a 		virtual DOM that generates extremely dynamic and responsive pages in a unidirectional data  flow. 
+	•  Developed API endpoints and implement backend logic for different aspects within the application, created SQL 		stored procedures, tables, models, services, and controllers.
+
+	
+Cryptogene | Software Developer 					MAR 2020 - DEC 2020, SEATTLE, WA 
+	https://github.com/mollybeach/cryptoagene/  
+	https://cryptogene.app/   
+ 	● Developed DApp/Web3JS Application creates NFTs with user DNA by converting raw DNA data files into art pieces of 			raymarching shader sculptures deployed on firebase. User login system backed by PostgreSql.
+	● Written in Vue / Node.js, Less, Vue, Firebase, Web3, Solidity; deployed on Firebase.
+
+Shader Park | Software Test Engineer				      	SEPT 2019- JAN 2021  SEATTLE, WA
+		● Worked independently to find and resolve front end issues in Vue.js. Collaborated with stakeholders to implement 		and design front end modeles.
+EDUCATION 
+BrainStation| Diploma, Web Development 				      	JAN 2020 - APR  2020, ONTARIO, CA
+Studied front end responsive design, HTML5, SCSS, React and SQL.
+Worked with project managers, UX designers, Data Science, Digital Marketing Team on Weekly Projects.
+University of Washington| Bachelor’s of Science			                     SEPT 2014 - JUNE  2017, SEATTLE, WA
+Molecular Cellular Developmental Biology (MCDB) 
+Computer Science and Software Engineering  Minor (CSSE)
+
+
+Questions : 
+1. At least 1 year of prior experience working for a respected and trusted DeFi protocol
+Explain in a few words. 
+
+1 Answer :
+ My experience with DeFi protocols is a solid foundation to build upon. I have worked with the
+  following protocols:
+  - ERC-20
+  - ERC-721
+  - ERC-1155
+  - ERC-1400
+
+  
+
+
+
+
+2. Experience building software in the Solidity programming language
+Explain in a few words
+
+2 Answer :
+For the past few years, I have worked with the Solidity programming language. I have worked with the
+following projects:
+- Magic
+-NSFW Club Token
+- Gula App Studios
+- Cryptogene
+Evidence of non-trivial experience in Solidity (e.g. deeper experience than NFT minting / marketplace / ERC20 token / ... contracts)
+Explain in a few words
+3. Answer 2 year of prior experience working for a respected and trusted blockchain protocol for complex business needs
+4. Formal computer science education from a respected college
+I studied Computer Science at University of Washington Seattle and a Certificate in Web Development from BrainStation Toronto
+5. Can autonomously work when given directives by the CTO
+Explain in a few words
+5 Answer :
+I am an independent and self-directed person. I can work on my own without any supervision from the CTO.
+6. Deeply passionate about DeFi and driven to build the future
+Explain in a few words
+6. Answer :
+I have been involved in CryptoCurrency since I was a child and I am passionate about the future of DeFi.
+7. Team player
+Explain in a few words
+7. Answer :
+I am always looking for new opportunities to learn and grow from the team.
+8. Strong communication skills
+Explain in a few words
+8. Answer :
+I love people and I am always open to new ideas and new ways to communicate.
+9. Familiarity with Gelato & LayerZero infrastructure
+Explain in a few words
+9. Answer :
+I have worked with Gelato and LayerZero and I am familiar with their infrastructure.
+Deep EVM Knowledge
+Explain in a few words
+10. Answer :
+I spend a lot of time learning about EVM and its architecture from working and in my free time.
+Knowledge of CurveDAO contracts
+Explain in a few words
+11. Answer :
+CurveDAO potential to be a superior cryptocurrency because its price can have stable movement across the ups and downs within the broader cryptocurrency market.
+CurveDAO is a superior cryptocurrency because it is a stable currency and with stable movement across the ups and downs within the broader cryptocurrency market.
+Experience with Typescript, Hardhat, Ether.js
+Explain in a few words
+12. Answer :
+My noncrypto development is mostly done with Typescript so I am well versed in the language. 
+I use Hardhat and Ether.js to develop the majority of my crypto projects.
+Ability to communicate in EST hours
+Explain in a few words
+Able to commit to a long-term (2+ year) working relationship, and a tangible track-record that showcases longevity.
+Explain in a few words
+Able to communicate in EST hours.
+14. Answer :
+My current contracts are coming to an end and I am looking for a new opportunity to work on a new project I interested in making a 2 year commitment to a team I am passionate about.
+*/ 
+
+//co pilo
+}
